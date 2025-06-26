@@ -1,0 +1,15 @@
+{
+      "identifier": "open_pr_rule_1",
+      "title": "Open PRs B",
+      "level": "Bronze",
+      "query": {
+        "combinator": "and",
+        "conditions": [
+          {
+            "operator": ">=",
+            "property": "open_p_rs",
+            "value": 0
+          }
+        ]
+      }
+    },
